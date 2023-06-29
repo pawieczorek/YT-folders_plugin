@@ -20,6 +20,8 @@ THEME:
 
 this plugin was designed to work with custom theme:
 
+https://github.com/pawieczorek/YT-folder_theme
+
 
 
 CHANGELOG:
