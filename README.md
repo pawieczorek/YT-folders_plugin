@@ -12,7 +12,7 @@ Helps to organize a windows explorer-like folder tree with yt videos thumbnails 
 
 INSTALLATION:
 
-After installation, find general_tree.php file and set your own google api GOOGLE_API_KEY:
+After installation, find general_tree.php file and set your own GOOGLE_API_KEY:
 
 define("GOOGLE_API_KEY", "your_key");
 
