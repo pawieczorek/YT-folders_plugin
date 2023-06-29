@@ -23,7 +23,7 @@ define("PLUGIN_DIR", plugin_dir_path( __FILE__ ));
 
 define("TAXONOMY_", "folders");
 define("DEFAULT_THUMBNAIL", "black.jpg");
-define("GOOGLE_API_KEY", "AIzaSyBL3uXweBVteL5UlLKipIegw8VPavkW_Q0");
+define("GOOGLE_API_KEY", "your_api");
 
 
 /**
