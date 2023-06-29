@@ -170,10 +170,6 @@ class General_Tree_Admin_Folder {
 
 		$term_to_delete_id = $_POST['GT']['term_id'];
 
-		// $user_login     = wp_get_current_user()->user_login;
-		// $root_term_name = 'root_folder_' . $user_login;
-		// $root_term_id   = get_term_by( 'name', $root_term_name, TAXONOMY_ )->term_id;
-
 		// only subfolders can be deleted. root folder can not be removed
 		if ( $term_to_delete_id != $this->current_user_root_folder_id() ) {
 
