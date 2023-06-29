@@ -297,7 +297,7 @@ class General_Tree_Admin_Folder {
 				),
 			)
 		);
-		$this->debug_file('posts',$the_query->posts());
+		
 		if ( $the_query->have_posts() ) :
 
 			while ( $the_query->have_posts() ) :
