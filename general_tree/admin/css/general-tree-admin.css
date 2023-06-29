@@ -1,0 +1,194 @@
+/* CONTENTS */
+
+/* FOLDERS PANEL */
+/* forms layout */
+/* forms inside*/
+/* thumbnail form */
+/* hidden inputs */
+/* spinners */
+/* notice */
+/* VIDEOS PANEL*/
+
+
+
+
+
+
+/* FOLDERS PANEL ====================================================*/
+
+/* folder tree */
+
+.gt-tree-container.page-folders {
+  margin-top: -50px;
+}
+
+.folder-name {
+  min-width: 100px;
+}
+
+li {
+  margin-bottom: 0px;
+}
+
+ul {
+  font-size: large;
+  color: black;
+  list-style: none;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+
+/* forms layout */
+
+.folders-page-forms {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.form-add-folder,
+.form-delete-folder,
+.form-rename-folder,
+.form-add-thumbnail-folder {
+
+  background-color: rgb(200, 194, 194);
+  width: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  max-height: 170px;
+}
+
+/* forms inside*/
+
+.new-folder-name,
+.folder-to-rename {
+  max-width: 80%;
+  max-height: 5%;
+
+}
+
+.new-folder-name[type="text"],
+.folder-to-rename[type="text"] {
+  line-height: 1;
+}
+
+.parent-term-name,
+.folder-id-to-delete,
+.folder-id-to-rename,
+.folder-id-for-thumbnail {
+  font-weight: 800;
+  overflow-wrap: break-word;
+  font-size: 15px;
+}
+
+/* thumbnail form */
+
+.form-add-thumbnail-folder {
+  width: 400px;
+  height: auto;
+  max-height: 300px;
+}
+
+.row {
+  flex-direction: row-reverse;
+}
+
+#folder-thumbnail {
+  max-width: 70%;
+  height: auto;
+  object-fit: contain;
+  padding-bottom: 15px;
+}
+
+.wp-admin input[type="file"] {
+  width: 70%;
+  display: none;
+}
+
+.file-name {
+  overflow-wrap: break-word;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
+
+.submit-thumbnail {
+  padding: 0px;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+
+/* hidden inputs */
+
+input.folder-id-to-delete,
+input.folder-id-to-rename,
+input.folder-id-for-thumbnail {
+  opacity: 0;
+  width: 0;
+  float: left;
+}
+
+
+
+/* spinners */
+
+.spinner-add-folder,
+.spinner-delete-folder,
+.spinner-rename-folder,
+.spinner-add-folder-thumbnail,
+#spinner-add-new-video,
+#spinner-trash-checked-videos,
+#spinner-video-edit-content {
+  position: relative;
+  top: 0px;
+  margin-left: 5px;
+}
+
+
+/* notice */
+
+.notice {
+  margin-left: 0px;
+  width: 50%;
+
+}
+
+pre.note {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.widefat {
+  width: 95%;
+}
+
+/* VIDEOS PANEL======================================== */
+
+
+input.ffolder-id-to-add-video {
+  opacity: 0;
+  width: 0;
+  float: left;
+}
+
+div.add-video {
+  padding-top: 20px;
+}
+
+.wp-heading-inline.video-title {
+  margin-top: 20px;
+}
+
+
+@media (max-width: 575px){
+#folder-thumbnail {
+  height: 100px;
+  /* max-height: 40%; */
+}
+.col-sm-6{
+  text-align: center;
+}
+} 
